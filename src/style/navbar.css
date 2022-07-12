@@ -18,8 +18,14 @@ body {
     gap: 1rem;
 }
 
-.ul {
+.nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+    padding: 0 1rem;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
 }
