@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
-import './style/navbar.css';
+import Timer from './components/Timer.js';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
       </header>
+      <Timer />
     </div>
   );
 }
