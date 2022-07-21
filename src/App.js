@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import Timer from './components/Timer.js';
+import AboutUs from './components/AboutUs.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </p>
       </header>
       <Timer />
+      <AboutUs />
     </div>
   );
 }

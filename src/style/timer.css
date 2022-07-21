@@ -1,7 +1,7 @@
 .timer-box {
     background-color: skyblue;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .timer-box p:first-child {

@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    margin: 5rem;
+}
+
+.paragraph {
+    display: flex;
+    margin: 5rem;
+}
