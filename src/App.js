@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar.js';
 import Timer from './components/Timer.js';
 import AboutUs from './components/AboutUs.js';
+import Event from './components/Event.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </header>
       <Timer />
       <AboutUs />
+      <Event />
     </div>
   );
 }
