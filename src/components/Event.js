@@ -2,6 +2,7 @@ import { React, useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import '../style/event.css';
 import ahod from '../logos/AHOD.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Event() {
 
@@ -20,14 +21,14 @@ export default function Event() {
                 <p>August 20, 2022</p>
             </Button>
 
-            {/*<Modal show={show} onHide={() => {handleClose();}}>
+            <Modal show={show} onHide={() => {handleClose();}}>
                 <Modal.Header closeButton>
                     <Modal.Title>All Hands On Decks</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     Schedule goes here
                 </Modal.Body>
-            </Modal>*/}
+            </Modal>
         </div>
     );
 }

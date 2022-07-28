@@ -1,0 +1,13 @@
+.AHOD-tourney {
+    background: lightgrey !important;
+    border-color: lightgrey !important;
+    margin-bottom: 5rem;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
